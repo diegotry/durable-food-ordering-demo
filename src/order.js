@@ -1,6 +1,5 @@
 export function wireOrderButton(document) {
-  // Intentional demo bug: the page uses "place-order".
-  const button = document.getElementById("order-button");
+  const button = document.getElementById("place-order");
   if (!button) {
     return false;
   }
